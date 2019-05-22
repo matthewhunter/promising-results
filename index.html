@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Async Math</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="magic.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="color-change-5x">
+    <header>
+        <h1>Promising Results</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Promises</h2>
+            <div id="promises"></div>
+        </section>
+        <section>
+            <h2>Async/Await</h2>
+            <div id="async"></div>
+        </section>
+    </main>
+    <div id="error">
+        <div class="vibrate-1">
+            <h2>Oops!</h2>
+            <h3>😔 I broke (probably on purpose)</h3>
+            <p id="error-message"></p>
+        </div>
+    </div>
     <script src="async-math.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
