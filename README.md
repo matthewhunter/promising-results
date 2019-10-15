@@ -1,5 +1,7 @@
 # Promising Results
-Covalence
+**Live Version:** https://matt-hunter.github.io/promising-results/
+
+**Video Review:** https://youtu.be/-FStLEg5Sj4
 
 ## Info
 * You have been given a starter project containing an index.html file and an async-math.js file
